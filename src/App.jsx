@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite and React</h1>
+      <h1>Top commit to check revert, checking reset via gitlens</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
