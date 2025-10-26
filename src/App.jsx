@@ -20,16 +20,19 @@ function App() {
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
+          ---This text is added vis Dev1---
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
+                    ---This text is added via Dev1---
         </p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
+         ---This text is added via Dev1---
       </p>
     </>
   )
 }
-
+ 
 export default App
