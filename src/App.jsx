@@ -24,7 +24,6 @@ function App() {
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
-                    ---This text is added via Dev1---
         </p>
       </div>
       <p className="read-the-docs">
@@ -34,5 +33,5 @@ function App() {
     </>
   )
 }
- 
+
 export default App
