@@ -29,7 +29,8 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-         ---This text is added via Dev1---
+         ---This text is added via Dev1--
+         Seeking PR approval-
       </p>
     </>
   )
