@@ -9,6 +9,8 @@ const logOut = () => {
     <div>made an extra change</div>
   <p>this is a footer added by utsarg as commit2, unaware of this adding some more lines for conflict.</p>
   <p> Ignoring the changes doing my unstashed work here.</p>
+  <p>More commits1</p>
+  <p>More commits2</p>
   </>
   )
 }
