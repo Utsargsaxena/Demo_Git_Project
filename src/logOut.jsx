@@ -1,9 +1,12 @@
 import React from "react";
 
 const logOut = () => {
-  const username = "Guest";
+  // 🟥 conflicting change — Dev1 editing same line
+  const username = "User-One";  
+
   const isLoggedIn = true;
-  const message = "Goodbye and come back soon!";
+  // 🟥 conflicting change — Dev1 editing same line
+  const message = "See you soon, User-One!"; 
 
   const handleLogout = () => {
     console.log("Logging out...");
@@ -11,10 +14,16 @@ const logOut = () => {
 
   return (
     <div className="logout-container">
-      <h2>Log Out Page</h2>
+      {/* 🟥 conflicting change */}
+      <h2>Goodbye User-One</h2>
+
       <p>Welcome, {username}</p>
       <button onClick={handleLogout}>Logout</button>
       <p>{message}</p>
+
+      {/* 🟩 safe - Dev1 adds own code */}
+      <p>We hope you visit again!</p>
+      <p>Logout completed successfully.</p>
     </div>
   );
 };
