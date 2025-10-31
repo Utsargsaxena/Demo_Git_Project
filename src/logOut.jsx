@@ -15,15 +15,16 @@ const logOut = () => {
   return (
     <div className="logout-container">
       {/* 🟥 conflicting change */}
-      <h2>Goodbye User-One</h2>
+      <h2>Bye Bye SuperUser!</h2>
 
       <p>Welcome, {username}</p>
       <button onClick={handleLogout}>Logout</button>
       <p>{message}</p>
 
-      {/* 🟩 safe - Dev1 adds own code */}
-      <p>We hope you visit again!</p>
-      <p>Logout completed successfully.</p>
+      {/* 🟩 safe additions */}
+      <p>Thanks for being with us!</p>
+      <p>Your session has ended.</p>
+      <p>Come back anytime!</p>
     </div>
   );
 };
